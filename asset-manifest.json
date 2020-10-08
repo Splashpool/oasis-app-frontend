@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/oasis-app-frontend/static/css/main.9e3c4b5a.chunk.css",
-    "main.js": "/oasis-app-frontend/static/js/main.97ac2208.chunk.js",
-    "main.js.map": "/oasis-app-frontend/static/js/main.97ac2208.chunk.js.map",
-    "runtime-main.js": "/oasis-app-frontend/static/js/runtime-main.ffcf5cbe.js",
-    "runtime-main.js.map": "/oasis-app-frontend/static/js/runtime-main.ffcf5cbe.js.map",
-    "static/css/2.26b4b09d.chunk.css": "/oasis-app-frontend/static/css/2.26b4b09d.chunk.css",
-    "static/js/2.1531bab0.chunk.js": "/oasis-app-frontend/static/js/2.1531bab0.chunk.js",
-    "static/js/2.1531bab0.chunk.js.map": "/oasis-app-frontend/static/js/2.1531bab0.chunk.js.map",
-    "index.html": "/oasis-app-frontend/index.html",
-    "precache-manifest.68092f8c8622f4deaa3d4f4c942135b2.js": "/oasis-app-frontend/precache-manifest.68092f8c8622f4deaa3d4f4c942135b2.js",
-    "service-worker.js": "/oasis-app-frontend/service-worker.js",
-    "static/css/2.26b4b09d.chunk.css.map": "/oasis-app-frontend/static/css/2.26b4b09d.chunk.css.map",
-    "static/css/main.9e3c4b5a.chunk.css.map": "/oasis-app-frontend/static/css/main.9e3c4b5a.chunk.css.map",
-    "static/js/2.1531bab0.chunk.js.LICENSE.txt": "/oasis-app-frontend/static/js/2.1531bab0.chunk.js.LICENSE.txt",
-    "static/media/map.png": "/oasis-app-frontend/static/media/map.e9993cfc.png",
-    "static/media/index.css": "/oasis-app-frontend/static/media/montserrat-vietnamese-400-normal.8c255c10.woff2"
+    "main.css": "/static/css/main.62644915.chunk.css",
+    "main.js": "/static/js/main.d3a8c781.chunk.js",
+    "main.js.map": "/static/js/main.d3a8c781.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.c01e3420.js",
+    "runtime-main.js.map": "/static/js/runtime-main.c01e3420.js.map",
+    "static/css/2.cab25aa1.chunk.css": "/static/css/2.cab25aa1.chunk.css",
+    "static/js/2.efffc38d.chunk.js": "/static/js/2.efffc38d.chunk.js",
+    "static/js/2.efffc38d.chunk.js.map": "/static/js/2.efffc38d.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.81b05edae47399f5bcef757a125ad0fd.js": "/precache-manifest.81b05edae47399f5bcef757a125ad0fd.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.cab25aa1.chunk.css.map": "/static/css/2.cab25aa1.chunk.css.map",
+    "static/css/main.62644915.chunk.css.map": "/static/css/main.62644915.chunk.css.map",
+    "static/js/2.efffc38d.chunk.js.LICENSE.txt": "/static/js/2.efffc38d.chunk.js.LICENSE.txt",
+    "static/media/map.png": "/static/media/map.e9993cfc.png",
+    "static/media/index.css": "/static/media/montserrat-vietnamese-400-normal.8c255c10.woff2"
   },
   "entrypoints": [
-    "static/js/runtime-main.ffcf5cbe.js",
-    "static/css/2.26b4b09d.chunk.css",
-    "static/js/2.1531bab0.chunk.js",
-    "static/css/main.9e3c4b5a.chunk.css",
-    "static/js/main.97ac2208.chunk.js"
+    "static/js/runtime-main.c01e3420.js",
+    "static/css/2.cab25aa1.chunk.css",
+    "static/js/2.efffc38d.chunk.js",
+    "static/css/main.62644915.chunk.css",
+    "static/js/main.d3a8c781.chunk.js"
   ]
 }
