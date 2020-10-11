@@ -53,6 +53,7 @@ const Popup = ({ feature }) => {
                 </Button>
             </Grid>
         </Grid>
+        
     );
 };
 
