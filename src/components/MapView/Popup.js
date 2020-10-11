@@ -22,11 +22,6 @@ const Popup = ({ feature }) => {
         setValue(event.target.value);
     };
     return (
-
-
-                {/* to get this line working you need to install -> npm install material-ui-rating
-                 and  npm install @material-ui/icons */}
-             
         // <div id={`popup-${id}`} className="popupdiv">
         //     <h3>{name}</h3>
         //     {description}
@@ -34,7 +29,7 @@ const Popup = ({ feature }) => {
 
         <Grid container spacing={0} className="popupdiv">
             <Grid item xs={12}>
-            <Typography>{status}</Typography>
+                <Typography>{status}</Typography>
             </Grid>
             <Grid item xs={12}>
                 <Rating
@@ -42,18 +37,17 @@ const Popup = ({ feature }) => {
                     max={5}
                     onChange={(value) => console.log(`Rated with value ${value}`)}
                     className="spl-star"
-                    name="size-small" size="small"
                 />
-               
             </Grid>
-            
+
             <Grid item xs={12}>
                 <Button color="white" >
                     Details
                 </Button>
             </Grid>
+
+
         </Grid>
-        
     );
 };
 
