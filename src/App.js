@@ -16,7 +16,7 @@ import Menu from "./components/Menu/Menu";
 import LocationListing from "./components/LocationListing";
 import LocationDetails from "./components/LocationDetails";
 import "fontsource-montserrat";
-import Search from "./components/Search/Search";
+import Search from "./components/Search/Search.jsx";
 import Filter from "./components/Filter";
 import MapView from "./components/MapView";
 import { library } from "@fortawesome/fontawesome-svg-core";

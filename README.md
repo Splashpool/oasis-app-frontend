@@ -1,4 +1,4 @@
-https://splashpool.github.io/oasis-app-frontend/
+https://splashpool.github.io/
 
 
 

@@ -54,7 +54,6 @@ function Search() {
     return ( 
         // now we show the Search text input
         <div className="Search">
-            <Home />
 
             <Box pt={6}>
                 <React.Fragment>

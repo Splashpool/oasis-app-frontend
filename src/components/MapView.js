@@ -15,7 +15,8 @@ var ReactDOM = require('react-dom');
 mapboxgl.accessToken = 'pk.eyJ1Ijoic2FuYWVzcGxhc2giLCJhIjoiY2tmYTlwMWpmMHR0cDJ0cHAyOHZhd3V0MSJ9.PmRGRrM4p1wgKavJKm-56A'
 
 
-const MapView = () => {
+const MapView = ({searchString}) => {
+  console.log(`${searchString} was given to MapView`);
   const mapContainerRef = useRef(null);
   const popUpRef = useRef(new mapboxgl.Popup({ offset: [20, 0] }));
   const geolocate = new mapboxgl.GeolocateControl({

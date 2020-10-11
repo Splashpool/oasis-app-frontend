@@ -43,7 +43,8 @@ const locations = [
   },
 ];
 
-function Filter() {
+function Filter({searchString}) {
+  console.log(`${searchString} was given to Filter`);
   const filterData = (locations, state) => {
     if (locations === undefined) throw new Error("locations is required");
     if (state === undefined) throw new Error("state is required");
@@ -81,7 +82,7 @@ function Filter() {
   return (
     <Grid container>
       <Grid item xs={12} md={12}>
-        <MapView />
+        <MapView searchString={searchString} />
         <LocationListing locationData={locations} />
       </Grid>
       <Grid item xs={12} md={12}>
