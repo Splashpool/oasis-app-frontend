@@ -29,7 +29,7 @@ const Popup = ({ feature }) => {
 
         <Grid container spacing={0} className="popupdiv">
             <Grid item xs={12}>
-            <Typography>{status}</Typography>
+                <Typography>{status}</Typography>
             </Grid>
             <Grid item xs={12}>
                 <Rating
@@ -37,11 +37,9 @@ const Popup = ({ feature }) => {
                     max={5}
                     onChange={(value) => console.log(`Rated with value ${value}`)}
                     className="spl-star"
-                    name="size-small" size="small"
                 />
-               
             </Grid>
-            
+
             <Grid item xs={12}>
                 <Button color="white" >
                     Details
