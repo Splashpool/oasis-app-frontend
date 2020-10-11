@@ -36,11 +36,7 @@ const Popup = ({ feature }) => {
 
                 <Card className="spl-root">
                     <CardActionArea>
-                        <img
-                            className="spl-media"
-                            src="https://images.freeimages.com/images/large-previews/113/water-from-spring-1426253.jpg"
-                            title="Contemplative Reptile"
-                        />
+                        
                         <CardContent>
                             <Typography variant="h6">Rating</Typography>
 
@@ -49,18 +45,7 @@ const Popup = ({ feature }) => {
                                 max={5}
                                 onChange={(value) => console.log(`Rated with value ${value}`)}
                             />
-                            <FormControl component="fieldset">
-
-                                <RadioGroup aria-label="gender" name="water" value={status} onChange={handleChange} className="spl-radio">
-                                    <FormControlLabel value="drinkable" control={<Radio color="primary" />} label="Drinkable" />
-                                    <Divider />
-                                    <FormControlLabel value="treatment" control={<Radio color="primary" />} label="Need treatment" />
-                                    <Divider />
-                                    <FormControlLabel value="undrinkable" control={<Radio color="primary" />} label="Undrinkable" />
-                                    <Divider />
-                                    <FormControlLabel value="unkown" control={<Radio color="primary" />} label="Unkown" />
-                                </RadioGroup>
-                            </FormControl>
+                           <Typography>{status}</Typography>
                         </CardContent>
                     </CardActionArea>
                     <CardActions>
