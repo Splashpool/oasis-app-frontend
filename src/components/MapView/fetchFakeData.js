@@ -18,7 +18,7 @@ function fetchFakeData(centerCoordinates) {
                 WC: true,
                 Water: true,
                 stars: 4,
-                status: 'drinkable'
+                status: 'Drinkable'
             },
         });
     }
