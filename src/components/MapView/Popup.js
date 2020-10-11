@@ -27,39 +27,25 @@ const Popup = ({ feature }) => {
         //     {description}
         // </div>
 
-        <Grid container spacing={0}>
+        <Grid container spacing={0} className="popupdiv">
             <Grid item xs={12}>
-
-                {/* to get this line working you need to install -> npm install material-ui-rating
-                 and  npm install @material-ui/icons */}
-
-
-                <Card className="spl-root">
-                    <CardActionArea>
-                        
-                        <CardContent>
-                            <Typography variant="h6">Rating</Typography>
-
-                            <Rating
-                                value={stars}
-                                max={5}
-                                onChange={(value) => console.log(`Rated with value ${value}`)}
-                            />
-                           <Typography>{status}</Typography>
-                        </CardContent>
-                    </CardActionArea>
-                    <CardActions>
-                        <Button size="small" color="primary">
-                            Report a problem
-                        </Button>
-                        <Button size="small" variant="contained" color="primary" disableElevation>
-                            Notify me
-                        </Button>
-                    </CardActions>
-                </Card>
-
-
-
+            <Typography>{status}</Typography>
+            </Grid>
+            <Grid item xs={12}>
+                <Rating
+                    value={stars}
+                    max={5}
+                    onChange={(value) => console.log(`Rated with value ${value}`)}
+                    className="spl-star"
+                    name="size-small" size="small"
+                />
+               
+            </Grid>
+            
+            <Grid item xs={12}>
+                <Button color="white" >
+                    Details
+                </Button>
             </Grid>
 
 
