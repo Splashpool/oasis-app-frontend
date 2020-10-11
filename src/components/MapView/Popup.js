@@ -22,18 +22,11 @@ const Popup = ({ feature }) => {
         setValue(event.target.value);
     };
     return (
-        // <div id={`popup-${id}`} className="popupdiv">
-        //     <h3>{name}</h3>
-        //     {description}
-        // </div>
-
         <Grid container spacing={0}>
             <Grid item xs={12}>
 
                 {/* to get this line working you need to install -> npm install material-ui-rating
                  and  npm install @material-ui/icons */}
-
-
                 <Card className="spl-root">
                     <CardActionArea>
                         <img
@@ -72,12 +65,7 @@ const Popup = ({ feature }) => {
                         </Button>
                     </CardActions>
                 </Card>
-
-
-
             </Grid>
-
-
         </Grid>
     );
 };
